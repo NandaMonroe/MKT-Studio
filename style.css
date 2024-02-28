@@ -688,3 +688,26 @@ body.nav-active {
 
 }
 
+/* responsiviness for screens larger than 1200px screen */
+@media (min-width: 1200px) {
+
+  /* custom property */
+
+  :root {
+    --fontSize-1: 7rem;
+    --fontSize-3: 2.8rem;
+  }
+
+
+  /* reused style */
+
+  .container {
+    max-width: 1140px;
+  }
+
+  .section-text {
+    max-width: 750px;
+  }
+
+}
+
