@@ -711,3 +711,51 @@ body.nav-active {
 
 }
 
+/* responsiviness for screens larger than 1400px screen */
+@media (min-width: 1400px) {
+
+  /* custom property */
+
+  :root {
+    --fontSize-1: 8rem;
+  }
+
+  /* reused style */
+
+  .container {
+    max-width: 1350px;
+  }
+
+  .section-text {
+    margin-block-end: 60px;
+  }
+
+
+  /* hero */
+
+  .hero-text {
+    font-size: 1.8rem;
+    margin-block: 40px;
+  }
+
+
+  /* process */
+
+  .process .wrapper {
+    gap: 130px;
+    grid-template-columns: 0.7fr 1fr;
+  }
+
+  .process-item .item-icon {
+    width: 80px;
+  }
+
+  .process-item .item-title {
+    margin-block: 25px 15px;
+  }
+
+  .process .grid-list {
+    row-gap: 50px;
+  }
+  
+}
